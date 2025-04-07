@@ -26,7 +26,7 @@ public class CalculatorTest {
 	void testDiv() {
 		Calculator calculator = new Calculator();
 		int result = calculator.div(4,2);
-		assertEquals(2, result);
+		assertEquals(7, result);
 	}
 
 }
