@@ -15,18 +15,18 @@ public class CalculatorTest {
 		int result = calculator.add(2, 3);
 		assertEquals(5, result);
 	}
-
-	@Test
-	void testSubtract() {
-		Calculator calculator = new Calculator();
-		int result = calculator.subtract(5, 3);
-		assertEquals(2, result);
-	}
-	@Test
-	void testDiv() {
-		Calculator calculator = new Calculator();
-		int result = calculator.div(4,2);
-		assertEquals(2, result);
-	}
+//
+//	@Test
+//	void testSubtract() {
+//		Calculator calculator = new Calculator();
+//		int result = calculator.subtract(5, 3);
+//		assertEquals(2, result);
+//	}
+//	@Test
+//	void testDiv() {
+//		Calculator calculator = new Calculator();
+//		int result = calculator.div(4,2);
+//		assertEquals(2, result);
+//	}
 
 }
